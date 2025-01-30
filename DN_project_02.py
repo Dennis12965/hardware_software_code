@@ -7,7 +7,8 @@ def ask_question():
     favorite_show = input(f"What is your favorite show, {name}? ")
     favorite_sport = input("What is your favorite sport, " + name + "? ")
     input(f"Cool! {favorite_sport} is awesome!")
-
+    input("Do you like programming? (yes/no) ")
+    input(" Thanks for chatting with me")
 def conversation():
     count = 0
     while True:
